@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">scratchapplication</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="home_fragment">Home Fragment</string>
+    <string name="scratch_fragment">Scratch Fragment</string>
+    <string name="activate_fragment">Activate Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="scratch">Scratch</string>
+    <string name="back_to_scratch">Back to scratch</string>
+    <string name="activate">Activate</string>
+    <string name="scratch_to_reveal_code">Scratch to reveal code</string>
+    <string name="card_is_active">Card is active!</string>
+</resources>

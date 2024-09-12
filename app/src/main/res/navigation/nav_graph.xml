@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/HomeFragment">
+
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="sk.o2.assignment.scratchapplication.ui.HomeFragment"
+        android:label="@string/home_fragment"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_SratchFragment"
+            app:destination="@id/ScratchFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_ActivateFragment"
+            app:destination="@id/ActivateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ScratchFragment"
+        android:name="sk.o2.assignment.scratchapplication.ui.ScratchFragment"
+        android:label="@string/scratch_fragment"
+        tools:layout="@layout/fragment_scratch">
+    </fragment>
+    <fragment
+        android:id="@+id/ActivateFragment"
+        android:name="sk.o2.assignment.scratchapplication.ui.ActivationFragment"
+        android:label="@string/activate_fragment"
+        tools:layout="@layout/fragment_activate">
+    </fragment>
+</navigation>
