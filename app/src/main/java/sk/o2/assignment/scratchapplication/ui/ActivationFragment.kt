@@ -1,6 +1,5 @@
 package sk.o2.assignment.scratchapplication.ui
 
-import android.content.DialogInterface
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
