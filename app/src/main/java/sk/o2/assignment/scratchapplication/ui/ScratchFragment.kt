@@ -69,6 +69,7 @@ class ScratchFragment : Fragment() {
         currentJob?.let {
             if (!it.isCompleted) {
                 it.cancel()
+                jobRunning = false
                 Log.d("Scratch", "Job cancelled")
             }
         }
